@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Antojarete | Aretes con sabor a México</title>
+	<link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+
+	<header class="cabecera">
+		<nav class="nav-principal">
+			<ul class="nav-lista">
+				<li><a href="index.html" class="activo">Inicio</a></li>
+				<li><a href="catalogo.html">Productos</a></li>
+				<li><a href="index.html#nosotros">Nosotros</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+			<ul class="nav-acciones">
+				<li>
+					<form action="catalogo.html" method="get" class="form-buscador">
+						<input type="search" name="buscar" placeholder="Buscar aretes..." class="input-buscador">
+						<button type="submit" class="boton-buscador">
+							<img src="iconos/icono-buscar.png" alt="Buscar" class="icono">
+						</button>
+					</form>
+				</li>
+				<li>
+					<a href="contacto.html" class="enlace-cuenta">
+						<img src="iconos/icono-usuario.png" alt="" class="icono">
+						Iniciar sesión
+					</a>
+				</li>
+				<li>
+					<a href="catalogo.html" class="enlace-carrito">
+						<img src="iconos/icono-bolsa.png" alt="Carrito de compras" class="icono">
+					</a>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="hero">
+			<h1 class="logo-hero">ANTOJARETE</h1>
+			<img src="imagenes/hero-aretes-oreo.jpeg" alt="Aretes artesanales con forma de galleta Oreo" class="hero-imagen">
+		</div>
+	</header>
+
+	<main>
+		<section class="categorias" id="categorias">
+			<h2 class="titulo-seccion">Compra por categoría</h2>
+
+			<div class="grid-categorias">
+
+				<article class="tarjeta-proximamente">
+					<img src="imagenes/proximamente-pan-de-muerto.jpeg" alt="Aretes de pan de muerto cayendo en fondo claro" class="imagen-proximamente">
+					<div class="contenido-proximamente">
+						<p class="texto-proximamente">Próximamente</p>
+						<a href="catalogo.html" class="boton boton-contorno">Explorar</a>
+					</div>
+				</article>
+
+				<a href="catalogo.html#dulce" class="tarjeta-categoria">
+					<img src="imagenes/categoria-dulce.jpeg" alt="Aretes dulces en forma de dona con chispas de colores">
+					<p class="nombre-categoria">Dulce</p>
+				</a>
+
+				<a href="catalogo.html#salado" class="tarjeta-categoria">
+					<img src="imagenes/categoria-salado.jpeg" alt="Aretes de elote preparado con mayonesa y chile">
+					<p class="nombre-categoria">Salado</p>
+				</a>
+
+				<a href="catalogo.html#objetos" class="tarjeta-categoria">
+					<img src="imagenes/categoria-objetos.jpeg" alt="Aretes en forma de comal de barro">
+					<p class="nombre-categoria">Objetos</p>
+				</a>
+
+				<a href="catalogo.html#sabritas" class="tarjeta-categoria">
+					<img src="imagenes/categoria-sabritas.jpeg" alt="Aretes en forma de bolsa de Takis dentro de un tazón">
+					<p class="nombre-categoria">Sabritas</p>
+				</a>
+
+			</div>
+		</section>
+
+		<section class="destacados">
+			<h2 class="titulo-seccion">Productos destacados</h2>
+
+			<div class="grid-productos">
+
+				<article class="tarjeta-producto">
+					<img src="imagenes/catalogo-pan-de-muerto.jpeg" alt="Aretes de pan de muerto hechos a mano">
+					<div class="info-producto">
+						<h3>Aretes Pan de Muerto</h3>
+						<p class="descripcion-producto">Miniatura de pan de muerto hecha a mano en arcilla polimérica, con acabado espolvoreado que imita el azúcar real.</p>
+						<div class="fila-precio">
+							<span class="precio">$120 MXN</span>
+							<a href="catalogo.html" class="boton boton-solido">Añadir al carrito</a>
+						</div>
+					</div>
+				</article>
+
+				<article class="tarjeta-producto">
+					<img src="imagenes/catalogo-elote.jpeg" alt="Aretes de elote preparado hechos a mano">
+					<div class="info-producto">
+						<h3>Aretes Elote Preparado</h3>
+						<p class="descripcion-producto">Réplica de elote con crema, queso y chile en polvo, con gancho de acero quirúrgico hipoalergénico.</p>
+						<div class="fila-precio">
+							<span class="precio">$110 MXN</span>
+							<a href="catalogo.html" class="boton boton-solido">Añadir al carrito</a>
+						</div>
+					</div>
+				</article>
+
+				<article class="tarjeta-producto">
+					<img src="imagenes/catalogo-takis.jpeg" alt="Aretes de bolsa de Takis Fuego hechos a mano">
+					<div class="info-producto">
+						<h3>Aretes Takis Fuego</h3>
+						<p class="descripcion-producto">Mini bolsa texturizada que recrea hasta el brillo del empaque, para quienes aman el picante en cada detalle.</p>
+						<div class="fila-precio">
+							<span class="precio">$105 MXN</span>
+							<a href="catalogo.html" class="boton boton-solido">Añadir al carrito</a>
+						</div>
+					</div>
+				</article>
+
+			</div>
+
+			<div class="centrado">
+				<a href="catalogo.html" class="boton boton-contorno">Ver todo el catálogo</a>
+			</div>
+		</section>
+
+		<section class="nosotros" id="nosotros">
+			<h2 class="titulo-seccion">Nosotros</h2>
+			<p class="texto-nosotros">En Antojarete transformamos los antojitos mexicanos de siempre en aretes hechos a mano, para que lleves contigo ese sabor a calle, a tianguis y a fiesta. Cada pieza se modela, se pinta y se barniza una por una, pensada para quienes quieren accesorios con identidad y buen humor.</p>
+		</section>
+	</main>
+
+	<footer class="pie-pagina" id="contacto">
+		<div class="pie-contenido">
+			<h2 class="titulo-pie">Contactos</h2>
+			<ul class="lista-contacto">
+				<li><a href="https://instagram.com/antojarete" target="_blank">Instagram · Antojarete</a></li>
+				<li><a href="https://facebook.com/antojarete" target="_blank">Facebook · Antojarete</a></li>
+				<li><a href="https://x.com/antojarete" target="_blank">X · Antojarete</a></li>
+				<li><a href="mailto:antojarete@gmail.com">antojarete@gmail.com</a></li>
+			</ul>
+			<p class="derechos">Antojarete 2026 - Todos los derechos reservados.</p>
+		</div>
+	</footer>
+
+</body>
+</html>

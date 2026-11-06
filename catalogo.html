@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Catálogo | Antojarete</title>
+	<link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+
+	<header class="cabecera cabecera-chica">
+		<nav class="nav-principal">
+			<ul class="nav-lista">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="catalogo.html" class="activo">Productos</a></li>
+				<li><a href="index.html#nosotros">Nosotros</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+			<ul class="nav-acciones">
+				<li>
+					<form action="catalogo.html" method="get" class="form-buscador">
+						<input type="search" name="buscar" placeholder="Buscar aretes..." class="input-buscador">
+						<button type="submit" class="boton-buscador">
+							<img src="iconos/icono-buscar.png" alt="Buscar" class="icono">
+						</button>
+					</form>
+				</li>
+				<li>
+					<a href="contacto.html" class="enlace-cuenta">
+						<img src="iconos/icono-usuario.png" alt="" class="icono">
+						Iniciar sesión
+					</a>
+				</li>
+				<li>
+					<a href="#" class="enlace-carrito">
+						<img src="iconos/icono-bolsa.png" alt="Carrito de compras" class="icono">
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="pagina-catalogo">
+
+		<div class="encabezado-catalogo">
+			<h1>Catálogo de aretes</h1>
+			<p class="migaja"><a href="index.html">Inicio</a> &gt; Productos</p>
+		</div>
+
+		<div class="barra-filtros">
+			<ul class="lista-filtros">
+				<li><a href="#dulce" class="chip-filtro">Dulce</a></li>
+				<li><a href="#salado" class="chip-filtro">Salado</a></li>
+				<li><a href="#sabritas" class="chip-filtro">Sabritas</a></li>
+				<li><a href="#objetos" class="chip-filtro">Objetos</a></li>
+			</ul>
+			<label class="orden-label" for="orden">
+				Ordenar por
+				<select name="orden" id="orden" class="selector-orden">
+					<option value="relevancia">Relevancia</option>
+					<option value="menor-precio">Precio: menor a mayor</option>
+					<option value="mayor-precio">Precio: mayor a menor</option>
+				</select>
+			</label>
+		</div>
+
+		<section class="grid-catalogo">
+
+			<article class="tarjeta-producto" id="dulce">
+				<img src="imagenes/catalogo-dona-chocolate.jpeg" alt="Aretes de dona de chocolate con chispas de colores">
+				<div class="info-producto">
+					<h3>Aretes Dona de Chocolate</h3>
+					<p class="descripcion-producto">Dona glaseada con chispas, acabado brillante y gancho dorado antialérgico.</p>
+					<div class="fila-precio">
+						<span class="precio">$115 MXN</span>
+						<a href="#" class="boton boton-solido">Añadir al carrito</a>
+					</div>
+				</div>
+			</article>
+
+			<article class="tarjeta-producto" id="salado">
+				<img src="imagenes/catalogo-elote.jpeg" alt="Aretes de elote preparado con mayonesa, queso y chile">
+				<div class="info-producto">
+					<h3>Aretes Elote Preparado</h3>
+					<p class="descripcion-producto">Textura de grano real pintada a mano, con mayonesa, queso y chile en polvo.</p>
+					<div class="fila-precio">
+						<span class="precio">$110 MXN</span>
+						<a href="#" class="boton boton-solido">Añadir al carrito</a>
+					</div>
+				</div>
+			</article>
+
+			<article class="tarjeta-producto">
+				<img src="imagenes/catalogo-paleta-payaso.jpeg" alt="Aretes de paleta payaso de chamoy">
+				<div class="info-producto">
+					<h3>Aretes Paleta Payaso</h3>
+					<p class="descripcion-producto">Réplica de la clásica paleta enchilada, con capas de color y acabado satinado.</p>
+					<div class="fila-precio">
+						<span class="precio">$95 MXN</span>
+						<a href="#" class="boton boton-solido">Añadir al carrito</a>
+					</div>
+				</div>
+			</article>
+
+			<article class="tarjeta-producto">
+				<img src="imagenes/catalogo-concha.jpeg" alt="Aretes de concha de vainilla">
+				<div class="info-producto">
+					<h3>Aretes Concha</h3>
+					<p class="descripcion-producto">Pan dulce en miniatura con el característico caparazón texturizado a mano.</p>
+					<div class="fila-precio">
+						<span class="precio">$90 MXN</span>
+						<a href="#" class="boton boton-solido">Añadir al carrito</a>
+					</div>
+				</div>
+			</article>
+
+			<article class="tarjeta-producto" id="dulce">
+				<img src="imagenes/catalogo-pan-de-muerto.jpeg" alt="Aretes de pan de muerto con azúcar espolvoreada">
+				<div class="info-producto">
+					<h3>Aretes Pan de Muerto</h3>
+					<p class="descripcion-producto">Edición de temporada con acabado espolvoreado que imita el azúcar real.</p>
+					<div class="fila-precio">
+						<span class="precio">$120 MXN</span>
+						<a href="#" class="boton boton-solido">Añadir al carrito</a>
+					</div>
+				</div>
+			</article>
+
+			<article class="tarjeta-producto">
+				<img src="imagenes/catalogo-churro.jpeg" alt="Aretes de churro con azúcar y canela">
+				<div class="info-producto">
+					<h3>Aretes Churro</h3>
+					<p class="descripcion-producto">Espiral acanalada cubierta de azúcar y canela, gancho ligero para uso diario.</p>
+					<div class="fila-precio">
+						<span class="precio">$85 MXN</span>
+						<a href="#" class="boton boton-solido">Añadir al carrito</a>
+					</div>
+				</div>
+			</article>
+
+			<article class="tarjeta-producto" id="sabritas">
+				<img src="imagenes/catalogo-takis.jpeg" alt="Aretes de bolsa de Takis Fuego">
+				<div class="info-producto">
+					<h3>Aretes Takis Fuego</h3>
+					<p class="descripcion-producto">Mini bolsa texturizada con el brillo del empaque, para los amantes del picante.</p>
+					<div class="fila-precio">
+						<span class="precio">$105 MXN</span>
+						<a href="#" class="boton boton-solido">Añadir al carrito</a>
+					</div>
+				</div>
+			</article>
+
+			<article class="tarjeta-producto" id="objetos">
+				<img src="imagenes/catalogo-comal.png" alt="Aretes en forma de comal de barro">
+				<div class="info-producto">
+					<h3>Aretes Comal de Barro</h3>
+					<p class="descripcion-producto">Para quienes prefieren un antojo más discreto: un comalito en miniatura hecho a mano.</p>
+					<div class="fila-precio">
+						<span class="precio">$100 MXN</span>
+						<a href="#" class="boton boton-solido">Añadir al carrito</a>
+					</div>
+				</div>
+			</article>
+
+		</section>
+
+		<nav class="paginacion">
+			<ul class="lista-paginacion">
+				<li><a href="#">&lt;</a></li>
+				<li><a href="#" class="pagina-activa">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">&gt;</a></li>
+			</ul>
+		</nav>
+
+	</main>
+
+	<footer class="pie-pagina">
+		<div class="pie-contenido">
+			<h2 class="titulo-pie">Contactos</h2>
+			<ul class="lista-contacto">
+				<li><a href="https://instagram.com/antojarete" target="_blank">Instagram · Antojarete</a></li>
+				<li><a href="https://facebook.com/antojarete" target="_blank">Facebook · Antojarete</a></li>
+				<li><a href="https://x.com/antojarete" target="_blank">X · Antojarete</a></li>
+				<li><a href="mailto:antojarete@gmail.com">antojarete@gmail.com</a></li>
+			</ul>
+			<p class="derechos">Antojarete 2026 - Todos los derechos reservados.</p>
+		</div>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto | Antojarete</title>
+	<link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body>
+
+	<header class="cabecera cabecera-chica">
+		<nav class="nav-principal">
+			<ul class="nav-lista">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="catalogo.html">Productos</a></li>
+				<li><a href="index.html#nosotros">Nosotros</a></li>
+				<li><a href="contacto.html" class="activo">Contacto</a></li>
+			</ul>
+			<ul class="nav-acciones">
+				<li>
+					<form action="catalogo.html" method="get" class="form-buscador">
+						<input type="search" name="buscar" placeholder="Buscar aretes..." class="input-buscador">
+						<button type="submit" class="boton-buscador">
+							<img src="iconos/icono-buscar.png" alt="Buscar" class="icono">
+						</button>
+					</form>
+				</li>
+				<li>
+					<a href="contacto.html" class="enlace-cuenta">
+						<img src="iconos/icono-usuario.png" alt="" class="icono">
+						Iniciar sesión
+					</a>
+				</li>
+				<li>
+					<a href="catalogo.html" class="enlace-carrito">
+						<img src="iconos/icono-bolsa.png" alt="Carrito de compras" class="icono">
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="pagina-contacto">
+
+		<section class="tarjeta-contacto">
+
+			<aside class="panel-info">
+				<img src="iconos/icono-persona.png" alt="" class="icono-persona">
+				<h1 class="titulo-panel">Información<br>de contacto</h1>
+
+				<ul class="lista-info">
+					<li>
+						<img src="iconos/icono-correo.png" alt="" class="icono-info">
+						<a href="mailto:antojarete@gmail.com">antojarete@gmail.com</a>
+					</li>
+					<li>
+						<img src="iconos/icono-telefono.png" alt="" class="icono-info">
+						<a href="tel:+526691234567">(669) 123-4567</a>
+					</li>
+					<li>
+						<img src="iconos/icono-ubicacion.png" alt="" class="icono-info">
+						<span>Mazatlán, Sinaloa, México</span>
+					</li>
+				</ul>
+
+				<ul class="lista-redes">
+					<li><a href="https://instagram.com/antojarete" target="_blank">Instagram</a></li>
+					<li><a href="https://facebook.com/antojarete" target="_blank">Facebook</a></li>
+					<li><a href="https://x.com/antojarete" target="_blank">X</a></li>
+				</ul>
+			</aside>
+
+			<div class="panel-formulario">
+				<h2 class="titulo-formulario">Envía un mensaje</h2>
+
+				<form action="#" class="formulario-contacto">
+					<div class="campo-formulario">
+						<label for="nombres">Nombres *</label>
+						<input type="text" id="nombres" name="nombres" required>
+					</div>
+
+					<div class="campo-formulario">
+						<label for="telefono">Teléfono / Celular</label>
+						<input type="tel" id="telefono" name="telefono">
+					</div>
+
+					<div class="campo-formulario">
+						<label for="correo">Correo electrónico *</label>
+						<input type="email" id="correo" name="correo" required>
+					</div>
+
+					<div class="campo-formulario">
+						<label for="mensaje">Mensaje *</label>
+						<textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+					</div>
+
+					<button type="submit" class="boton boton-solido">Enviar mensaje</button>
+				</form>
+			</div>
+
+		</section>
+
+	</main>
+
+	<footer class="pie-pagina">
+		<div class="pie-contenido">
+			<h2 class="titulo-pie">Contactos</h2>
+			<ul class="lista-contacto">
+				<li><a href="https://instagram.com/antojarete" target="_blank">Instagram · Antojarete</a></li>
+				<li><a href="https://facebook.com/antojarete" target="_blank">Facebook · Antojarete</a></li>
+				<li><a href="https://x.com/antojarete" target="_blank">X · Antojarete</a></li>
+				<li><a href="mailto:antojarete@gmail.com">antojarete@gmail.com</a></li>
+			</ul>
+			<p class="derechos">Antojarete 2026 - Todos los derechos reservados.</p>
+		</div>
+	</footer>
+
+</body>
+</html>
